@@ -1,6 +1,6 @@
 {
   "name": "mui-color",
-  "version": "1.2.0",
+  "version": "2.0.0-beta.1",
   "description": "The lightest colorpicker for React Mui v5. No dependencies. It uses Hooks and support Typescript, and more !",
   "main": "index.js",
   "module": "./esm/index.js",
