@@ -24,7 +24,8 @@ import useTranslate from '../../helpers/useTranslate';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    backgroundColor: theme.palette.background.paper,
+    // Ugly fix for beta 1
+    backgroundColor: theme.palette ? theme.palette.background.paper : 'fff',
     position: 'relative',
     width: 'min-content',
     height: 'min-content',
