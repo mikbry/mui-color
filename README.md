@@ -1,4 +1,4 @@
-# `material-ui-color` picker and other components
+# `mui-color` picker and other components
 
 [![Build Status][action-image]][action-url]
 [![codecov][codecov-image]][codecov-url]
@@ -10,26 +10,30 @@
 [![peer dependency status][peer-deps-svg]][peer-deps-url]
 [![Downloads][downloads-image]][downloads-url]
 
-[action-image]: https://github.com/mikbry/material-ui-color/workflows/Build%20and%20Deploy/badge.svg
-[action-url]: https://mikbry.github.io/material-ui-color/
-[codecov-image]: https://codecov.io/gh/mikbry/material-ui-color/branch/master/graph/badge.svg?token=K4P0vnM5fh
-[codecov-url]: https://codecov.io/gh/mikbry/material-ui-color
-[npm-image]: https://img.shields.io/npm/v/material-ui-color.svg
-[npm-url]: https://npmjs.org/package/material-ui-color
-[license-image]: https://img.shields.io/github/license/mikbry/material-ui-color
-[License-url]:https://github.com/mikbry/material-ui-color/blob/master/LICENSE
-[min-image]:https://badgen.net/bundlephobia/min/material-ui-color
-[min-url]:https://bundlephobia.com/result?p=material-ui-color
-[deps-svg]: https://david-dm.org/mikbry/material-ui-color.svg
-[deps-url]: https://david-dm.org/mikbry/material-ui-color
-[dev-deps-svg]: https://david-dm.org/mikbry/material-ui-color/dev-status.svg
-[dev-deps-url]: https://david-dm.org/mikbry/material-ui-color#info=devDependencies
-[peer-deps-svg]: https://david-dm.org/mikbry/material-ui-color/peer-status.svg
-[peer-deps-url]: https://david-dm.org/mikbry/material-ui-color#info=peerDependencies
-[downloads-image]: http://img.shields.io/npm/dm/material-ui-color.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=material-ui-color
+[action-image]: https://github.com/mikbry/mui-color/workflows/Build%20and%20Deploy/badge.svg
+[action-url]: https://mikbry.github.io/mui-color/
+[codecov-image]: https://codecov.io/gh/mikbry/mui-color/branch/master/graph/badge.svg?token=K4P0vnM5fh
+[codecov-url]: https://codecov.io/gh/mikbry/mui-color
+[npm-image]: https://img.shields.io/npm/v/mui-color.svg
+[npm-url]: https://npmjs.org/package/mui-color
+[license-image]: https://img.shields.io/github/license/mikbry/mui-color
+[License-url]:https://github.com/mikbry/mui-color/blob/master/LICENSE
+[min-image]:https://badgen.net/bundlephobia/min/mui-color
+[min-url]:https://bundlephobia.com/result?p=mui-color
+[deps-svg]: https://david-dm.org/mikbry/mui-color.svg
+[deps-url]: https://david-dm.org/mikbry/mui-color
+[dev-deps-svg]: https://david-dm.org/mikbry/mui-color/dev-status.svg
+[dev-deps-url]: https://david-dm.org/mikbry/mui-color#info=devDependencies
+[peer-deps-svg]: https://david-dm.org/mikbry/mui-color/peer-status.svg
+[peer-deps-url]: https://david-dm.org/mikbry/mui-color#info=peerDependencies
+[downloads-image]: http://img.shields.io/npm/dm/mui-color.svg
+[downloads-url]: http://npm-stat.com/charts.html?package=mui-color
+
+# Preview port of Material-ui-color to Mui v5
 
 > Collections of color components for [material-ui](https://github.com/mui-org/material-ui). No dependencies, small, highly customizable and theming support !
+
+
 
 ![Video of ColorPicker](./images/muicc-v0-2.webp)
 
@@ -56,7 +60,7 @@
 
 Full documentation is available here :
 
-https://mikbry.github.io/material-ui-color/
+https://mikbry.github.io/mui-color/
 
 ### Examples 
 
@@ -64,9 +68,9 @@ https://mikbry.github.io/material-ui-color/
 
 Also in codesanbox
 
-- Javascript : https://codesandbox.io/s/material-ui-color-qb4vm?file=/src/App.jsx
+- Javascript : https://codesandbox.io/s/mui-color-qb4vm?file=/src/App.jsx
 
-- Typescript : https://codesandbox.io/s/material-ui-color-picker-qvcg3?file=/src/App.tsx
+- Typescript : https://codesandbox.io/s/mui-color-picker-qvcg3?file=/src/App.tsx
 
 
 ## Requirements
@@ -76,12 +80,12 @@ Also in codesanbox
 ## Install
 
 ```bash
-yarn add material-ui-color
+yarn add mui-color
 ```
 
 Or using npm
 ```bash
-npm install material-ui-color
+npm install mui-color
 ```
 
 ## Usage
@@ -96,14 +100,14 @@ you need to have in your dependencies:
     "react-dom": "^17.0.1",
 ```
 
-`material-ui-color` bring 5 components.
+`mui-color` bring 5 components.
 
 ### `<ColorPicker/>`
 
 A popover component to display a color tool box. It uses `ColorBox` and `material-ui-popup-state`.
 
 ```javascript
-import { ColorPicker } from 'material-ui-color';
+import { ColorPicker } from 'mui-color';
 
 export const Container = () => (
   <div>
@@ -114,13 +118,13 @@ export const Container = () => (
 
 At first it display a button + an input
 
-[ColorPicker documentation](https://mikbry.github.io/material-ui-color/?path=/story/components-colorpicker--basic)
+[ColorPicker documentation](https://mikbry.github.io/mui-color/?path=/story/components-colorpicker--basic)
 
 ### `<ColorBox />`
 
 A component to display a color tool box
 ```javascript
-import { ColorBox } from 'material-ui-color';
+import { ColorBox } from 'mui-color';
 
 export const Container = () => (
   <div>
@@ -129,14 +133,14 @@ export const Container = () => (
 );
 ```
 
-[ColorBox documentation](https://mikbry.github.io/material-ui-color/?path=/story/components-colorbox--basic)
+[ColorBox documentation](https://mikbry.github.io/mui-color/?path=/story/components-colorbox--basic)
 
 ### `<ColorInput />`
 
 An input component to display/edit color values in different format (plain, hex, rgb, hsl, hsv).
 
 ```javascript
-import { ColorInput } from 'material-ui-color';
+import { ColorInput } from 'mui-color';
 
 export const Container = () => (
   <div>
@@ -145,14 +149,14 @@ export const Container = () => (
 );
 ```
 
-[ColorInput documentation](https://mikbry.github.io/material-ui-color/?path=/story/components-colorinput--basic)
+[ColorInput documentation](https://mikbry.github.io/mui-color/?path=/story/components-colorinput--basic)
 
 ### `<ColorPalette />`
 
 A component to display a grid of color buckets.
 
 ```javascript
-import { ColorPalette } from 'material-ui-color';
+import { ColorPalette } from 'mui-color';
 
 const palette = {
   red: '#ff0000',
@@ -177,14 +181,14 @@ export const Container = () => (
 );
 ```
 
-[ColorPalette documentation](https://mikbry.github.io/material-ui-color/?path=/story/components-colorpalette--basic)
+[ColorPalette documentation](https://mikbry.github.io/mui-color/?path=/story/components-colorpalette--basic)
 
 ### `<ColorButton />`
 
 Displays a button filled with a color
 
 ```javascript
-import { ColorButton } from 'material-ui-color';
+import { ColorButton } from 'mui-color';
 
 export const Container = () => (
   <div>
@@ -193,11 +197,11 @@ export const Container = () => (
 );
 ```
 
-[ColorButton documentation](https://mikbry.github.io/material-ui-color/?path=/story/components-colorbutton--basic)
+[ColorButton documentation](https://mikbry.github.io/mui-color/?path=/story/components-colorbutton--basic)
 
 ## Roadmap
 
-### v1.0.0 - [Current version](https://github.com/mikbry/material-ui-color/releases/tag/v1.0.0)
+### v1.0.0 - [Current version](https://github.com/mikbry/mui-color/releases/tag/v1.0.0)
 - remove `styled-components` to have less dependencies and reduce size
 - display wrong color using a red checked box
 - bugs fixes
