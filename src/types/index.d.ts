@@ -1,4 +1,4 @@
-declare module 'material-ui-color' {
+declare module 'mui-color' {
 
   enum ColorFormat {
     "plain",
